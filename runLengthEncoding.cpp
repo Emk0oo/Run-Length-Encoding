@@ -17,10 +17,17 @@ string run(string input) {
     return output;
 }
 
+string reRun(string runOutput){
+    string output= "";
+}
+
 int main() {
-    string input = "aaaabbbcc";
-    string result = run(input); 
-    cout << "Output: " << result << endl;
+    string input = "";
+
+    cout << "Input: ";
+    cin >> input;
+    string runOutput = run(input); 
+    cout << "Output: " << runOutput << endl;
 
     return 0;
 }
